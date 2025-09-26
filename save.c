@@ -46,9 +46,9 @@ void saves(char *names,int *list1){
     int i=0;
     f1=fopen(names,"w");
     for(i=0;i<n;i++){
-        fprintf(f1,"%d",list1[i*2+1]);
-        fprintf(f1,", %d",list1[i*2+2]);
-        fprintf(f1,", %d\n",list1[i*2+3]);
+        fprintf(f1,"%d",list1[i*3+1]);
+        fprintf(f1,", %d",list1[i*3+2]);
+        fprintf(f1,", %d\n",list1[i*3+3]);
     }
     fclose(f1);
 }
