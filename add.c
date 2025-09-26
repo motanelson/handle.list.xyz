@@ -38,7 +38,7 @@ int main(){
     int i=0;
     
     int list1[4096]={0};
-    printf("\033c\033[43;30m\nnumbersxxx\n");
+    printf("\033c\033[43;30m\nnumbers\n");
     
     for(i=0;i<30;i++)adds(list1,i*5,i*5+1,i*5+2);
     printf("\n\n");
